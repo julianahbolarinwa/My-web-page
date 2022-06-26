@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="PrHeader">
+      <h2 class="nav1">Anna Profile</h2>
+      <nav>
+        <a href="index.html">About Me</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html">Registration</a>
+        <a href="Login.html">Login</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contact section">
+        <h2>Contact Me</h2>
+        <form action="">
+          <label for="name">Your Name</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="fullname"
+            placeholder="Full name...."
+            required
+          />
+          <br />
+          <label for="email">Your email address</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <br />
+          <label for="message">Leave a message</label>
+          <br />
+          <textarea
+            name=" message"
+            id=" message"
+            placeholder="Leave a  message"
+            maxlength="1500"
+            required
+          ></textarea>
+          <br />
+          <button type="button">SUBMIT</button>
+        </form>
+      </section>
+    </main>
+    <footer>&copy;2022 - AnnaCodes|All Right Reserved</footer>
+  </body>
+</html>
